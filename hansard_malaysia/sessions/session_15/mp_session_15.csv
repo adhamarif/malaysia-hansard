@@ -1,0 +1,223 @@
+seat_code,state,seat,mp,current_party
+P001,Perlis,Padang Besar,RUSHDAN BIN RUSMI,
+P002,Perlis,Kangar,ZAKRI BIN HASSAN,PPBM
+P003,Perlis,Arau,SHAHIDAN BIN KASSIM,PAS
+P004,Kedah,Langkawi,MOHD SUHAIMI BIN ABDULLAH,PPBM
+P005,Kedah,Jerlun,ABDUL GHANI BIN AHMAD,PAS
+P006,Kedah,Kubang Pasu,KU ABDUL RAHMAN BIN KU ISMAIL,PPBM
+P007,Kedah,Padang Terap,NURUL AMIN HAMID,PAS
+P008,Kedah,Pokok Sena,AHMAD BIN SAAD @ YAHAYA,PAS
+P009,Kedah,Alor Setar,AFNAN HAMIMI TAIB AZAMUDDEN,PAS
+P010,Kedah,Kuala Kedah,AHMAD FAKHRUDDIN SHEIKH FAKHRURAZI,PAS
+P011,Kedah,Pendang,AWANG BIN HASHIM,PAS
+P012,Kedah,Jerai,SABRI BIN AZIT,PAS
+P013,Kedah,Sik,AHMAD TARMIZI BIN SULAIMAN,PAS
+P014,Kedah,Merbok,MOHD NAZRI ABU HASSAN,BERSATU
+P015,Kedah,Sungai Petani,MOHAMMED TAUFIQ JOHARI,Parti Keadilan Rakyat
+P016,Kedah,Baling,HASSAN SAAD,Parti Islam Se-Malaysia
+P017,Kedah,Padang Serai,AZMAN BIN NASRUDIN,BERSATU
+P018,Kedah,Kulim Bandar Baharu,ROSLAN HASHIM,BERSATU
+P019,Kelantan,Tumpat,MUMTAZ BINTI MD. NAWI,
+P020,Kelantan,Pengkalan Chepa,AHMAD MARZUK BIN SHAARY,PAS
+P021,Kelantan,Kota Bharu,TAKIYUDDIN BIN HASSAN,PAS
+P022,Kelantan,Pasir Mas,AHMAD FADHLI BIN SHAARI,PAS
+P023,Kelantan,Rantau Panjang,SITI ZAILAH BINTI MOHD YUSOFF,PAS
+P024,Kelantan,Kubang Kerian,TUAN IBRAHIM BIN TUAN MAN,PAS
+P025,Kelantan,Bachok,MOHD SYAHIR BIN CHE SULAIMAN,PAS
+P026,Kelantan,Ketereh,KHLIR MOHD NOR,PAS
+P027,Kelantan,Tanah Merah,IKMAL HISHAM BIN ABDUL AZIZ,PPBM
+P028,Kelantan,Pasir Puteh,NIK MUHAMMAD ZAWAWI BIN SALLEH,PAS
+P029,Kelantan,Machang,WAN AHMAD FAYHSAL BIN WAN AHMAD KAMAL,Malaysian United Indigenous Party / Parti Pribumi Bersatu Malaysia (BERSATU)
+P030,Kelantan,Jeli,ZAHARI KECHIK,BERSATU
+P031,Kelantan,Kuala Krai,ABDUL LATIFF BIN ABDUL RAHMAN,PAS
+P032,Kelantan,Gua Musang,MOHD AZIZI BIN ABU NAIM,PPBM
+P033,Terengganu,Besut,CHE MOHAMMAD ZULKIFLY JUSOH,PAS
+P034,Terengganu,Setiu,SHAHARIZUKIRNAIN BIN ABD KADIR,PAS
+P035,Terengganu,Kuala Nerus,ALIAS BIN RAZAK,Malaysia Islamic Party (PAS)
+P036,Terengganu,Kuala Terengganu,AHMAD AMZAD BIN MOHAMED @ HASHIM,PAS
+P037,Terengganu,Marang,ABDUL HADI BIN AWANG,PAS
+P038,Terengganu,Hulu Terengganu,ROSOL BIN WAHID,PPBM
+P039,Terengganu,Dungun,WAN HASSAN BIN MOHD RAMLI,PAS
+P040,Terengganu,Kemaman,CHE ALIAS BIN HAMID,PAS
+P041,Pulau Pinang,Kepala Batas,SITI MASTURA MUHAMMAD,PAS
+P042,Pulau Pinang,Tasek Gelugor,WAN SAIFULRUDDIN WAN JAN,Malaysian United Indigenous Party (BERSATU) 
+P043,Pulau Pinang,Bagan,LIM GUAN ENG,DAP
+P044,Pulau Pinang,Permatang Pauh,MUHAMMAD FAWWAZ MAT JAN,PARTI ISLAM SE-MALAYSIA (PAS)
+P045,Pulau Pinang,Bukit Mertajam,SIM CHEE KEONG,DAP
+P046,Pulau Pinang,Batu Kawan,CHOW KON YEOW,DAP
+P047,Pulau Pinang,Nibong Tebal,FADHLINA SIDDIQ,People's Justice Party (PKR)
+P048,Pulau Pinang,Bukit Bendera,SYERLEENA ABDUL RASHID,Democratic Action Party (DAP)
+P049,Pulau Pinang,Tanjong,LIM HUI YING,Democratic Action Party (DAP)
+P050,Pulau Pinang,Jelutong,SANISVARA NETHAJI RAYER A/L RAJAJI,DAP
+P051,Pulau Pinang,Bukit Gelugor,RAMKARPAL SINGH A/L KARPAL SINGH,DAP
+P052,Pulau Pinang,Bayan Baru,SIM TZE TZIN,PKR
+P053,Pulau Pinang,Balik Pulau,MUHAMMAD BAKHTIAR BIN WAN CHIK,PKR
+P054,Perak,Gerik,FATHUL HUZIR AYOB,Parti Pribumi Bersatu Malaysia
+P055,Perak,Lenggong,SHAMSUL ANUAR BIN NASARAH,UMNO
+P056,Perak,Larut,HAMZAH BIN ZAINUDIN,PPBM
+P057,Perak,Parit Buntar,MOHD MISBAHUL MUNIR MASDUKI,Parti Islam Se-Malaysia
+P058,Perak,Bagan Serai,IDRIS BIN AHMAD,Parti Islam Se-Malaysia
+P059,Perak,Bukit Gantang,SYED ABU HUSSIN BIN HAFIZ SYED ABDUL FASAL,PPBM
+P060,Perak,Taiping,WONG KAH WOH,DAP
+P061,Perak,Padang Rengas,AZAHARI HASAN,Parti Pribumi Bersatu Malaysia
+P062,Perak,Sungai Siput,KESAVAN A/L SUBRAMANIAM,PKR
+P063,Perak,Tambun,ANWAR BIN IBRAHIM,PKR
+P064,Perak,Ipoh Timur,LEE CHUAN HOW,Democratic Action Party
+P065,Perak,Ipoh Barat,M. KULASEGARAN A/L V. MURUGESON,DAP
+P066,Perak,Batu Gajah,SIVAKUMAR A/L VARATHARAJU NAIDU,DAP
+P067,Perak,Kuala Kangsar,ISKANDAR DZULKARNAIN ABDUL KHALID,Parti Pribumi Bersatu Malaysia
+P068,Perak,Beruas,NGEH KOO HAM,DAP
+P069,Perak,Parit,MUHAMMAD ISMI MAT TAIB,PAS
+P070,Perak,Kampar,CHONG ZHEMIN,Democratic Action Party (DAP)
+P071,Perak,Gopeng,TAN KAR HING,DAP
+P072,Perak,Tapah,SARAVANAN A/L MURUGAN,MIC
+P073,Perak,Pasir Salak,JAMALUDIN YAHYA,PAS
+P074,Perak,Lumut,NORDIN AHMAD ISMAIL,PPBM
+P075,Perak,Bagan Datuk,AHMAD ZAHID BIN HAMIDI,UMNO
+P076,Perak,Teluk Intan,NGA KOR MING,DAP
+P077,Perak,Tanjong Malim,CHANG LIH KANG,PKR
+P078,Pahang,Cameron Highlands,RAMLI BIN DATO' MOHD NOR,UMNO
+P079,Pahang,Lipis,ABDUL RAHMAN BIN MOHAMAD,UMNO
+P080,Pahang,Raub,CHOW YU HUI,DAP
+P081,Pahang,Jerantut,KHAIRIL NIZAM BIN KHIRUDIN,PAS
+P082,Pahang,Indera Mahkota,SAIFUDDIN BIN ABDULLAH,PPBM
+P083,Pahang,Kuantan,WAN RAZALI BIN WAN NOR,PAS
+P084,Pahang,Paya Besar,MOHD SHAHAR BIN ABDULLAH,UMNO
+P085,Pahang,Pekan,SH MOHAMED PUZI SH ALI,UMNO
+P086,Pahang,Maran,ISMAIL BIN ABD. MUTTALIB,PAS
+P087,Pahang,Kuala Krau,KAMAL ASHAARI,PAS
+P088,Pahang,Temerloh,SALAMIAH MOHD NOR,PAS
+P089,Pahang,Bentong,YOUNG SYEFURA OTHMAN,Democratic Action Party (DAP)
+P090,Pahang,Bera,ISMAIL SABRI BIN YAAKOB,UMNO
+P091,Pahang,Rompin,ABDUL KHALIB ABDULLAH,BERSATU
+P092,Selangor,Sabak Bernam,KALAM BIN SALAN,BERSATU
+P093,Selangor,Sungai Besar,MUSLIMIN BIN YAHAYA,PPBM
+P094,Selangor,Hulu Selangor,MOHD HASNIZAN HARUN,BERSATU
+P095,Selangor,Tanjong Karang,ZULKAFPERI HANAPI,BERSATU
+P096,Selangor,Kuala Selangor,DZULKEFLY BIN AHMAD,AMANAH
+P097,Selangor,Selayang,WILLIAM LEONG JEE KEEN,PKR
+P098,Selangor,Gombak,AMIRUDIN BIN SHARI,PKR
+P099,Selangor,Ampang,RODZIAH BINTI ISMAIL,PKR
+P100,Selangor,Pandan,MOHD RAFIZI BIN RAMLI,People's Justice Party (PKR)
+P101,Selangor,Hulu Langat,MOHD SANY HAMZAN,AMANAH
+P102,Selangor,Bangi,SYAHREDZAN JOHAN,DAP
+P103,Selangor,Puchong,YEO BEE YIN,DAP
+P104,Selangor,Subang,WONG CHEN,PKR
+P105,Selangor,Petaling Jaya,LEE CHEAN CHUNG,People's Justice Party (PKR)
+P106,Selangor,Damansara,GOBIND SINGH DEO,DAP
+P107,Selangor,Sungai Buloh,RAMANAN RAMAKRISHNAN,People's Justice Party (PKR)
+P108,Selangor,Shah Alam,AZLI YUSOF,AMANAH
+P109,Selangor,Kapar,HALIMAH BINTI ALI,PAS
+P110,Selangor,Klang,GANABATIRAU A/L VERAMAN,DAP
+P111,Selangor,Kota Raja,MOHAMAD BIN SABU,AMANAH
+P112,Selangor,Kuala Langat,AHMAD YUNUS BIN HAIRI,PAS
+P113,Selangor,Sepang,RAJ MUNNI SABU @ AIMAN ATHIRAH AL JUNDI,AMANAH
+P114,W.P. Kuala Lumpur,Kepong,LIM LIP ENG,DAP
+P115,W.P. Kuala Lumpur,Batu,PRABAKARAN A/L M PARAMESWARAN,PKR
+P116,W.P. Kuala Lumpur,Wangsa Maju,ZAHIR HASSAN,PKR
+P117,W.P. Kuala Lumpur,Segambut,HANNAH YEOH TSEOW SUAN,DAP
+P118,W.P. Kuala Lumpur,Setiawangsa,NIK NAZMI BIN NIK AHMAD,PKR
+P119,W.P. Kuala Lumpur,Titiwangsa,JOHARI BIN ABDUL GHANI,UMNO
+P120,W.P. Kuala Lumpur,Bukit Bintang,FONG KUI LUN,DAP
+P121,W.P. Kuala Lumpur,Lembah Pantai,AHMAD FAHMI BIN MOHAMED FADZIL,PKR
+P122,W.P. Kuala Lumpur,Seputeh,TERESA KOK SUH SIM,DAP
+P123,W.P. Kuala Lumpur,Cheras,TAN KOK WAI,DAP
+P124,W.P. Kuala Lumpur,Bandar Tun Razak,WAN AZIZAH BINTI WAN ISMAIL,PKR
+P125,W.P. Putrajaya,Putrajaya,MOHD RADZI BIN JIDIN,BERSATU
+P126,Negeri Sembilan,Jelebu,JALALUDDIN BIN ALIAS,UMNO
+P127,Negeri Sembilan,Jempol,SHAMSULKAHAR BIN MOHD DELI,UMNO
+P128,Negeri Sembilan,Seremban,LOKE SIEW FOOK,DAP
+P129,Negeri Sembilan,Kuala Pilah,ADNAN ABU HASSAN,UMNO
+P130,Negeri Sembilan,Rasah,CHA KEE CHIN,DAP
+P131,Negeri Sembilan,Rembau,MOHAMAD BIN HASAN,UMNO
+P132,Negeri Sembilan,Port Dickson,AMINUDDIN BIN HARUN,
+P133,Negeri Sembilan,Tampin,MOHD ISAM MOHD ISA,UMNO
+P134,Melaka,Masjid Tanah,MAS ERMIEYATI BINTI SAMSUDIN,PPBM
+P135,Melaka,Alor Gajah,ADLY ZAHARI,AMANAH
+P136,Melaka,Tangga Batu,BAKRI JAMALUDDIN,Parti Islam Se-Malaysia (PAS)
+P137,Melaka,Hang Tuah Jaya,ADAM ADLI ABD HALIM,Parti Keadilan Rakyat (PKR)
+P138,Melaka,Kota Melaka,KHOO POAY TIONG,DAP
+P139,Melaka,Jasin,ZULKIFLI BIN ISMAIL,Parti Islam Se-Malaysia (PAS)
+P140,Johor,Segamat,YUNESWARAN A/L RAMARAJ ,Parti Keadilan Rakyat (PKR)
+P141,Johor,Sekijang,ZALIHA MUSTAFA,Parti Keadilan Rakyat (PKR)
+P142,Johor,Labis,PANG HOK LIONG,DAP
+P143,Johor,Pagoh,MAHIADDIN BIN MD YASIN,PPBM
+P144,Johor,Ledang,SYED IBRAHIM BIN SYED NOH,Parti Keadilan Rakyat (PKR)
+P145,Johor,Bakri,TAN HONG PIN,Democratic Action Party (DAP)
+P146,Johor,Muar,SYED SADDIQ BIN SYED ABDUL RAHMAN,Malaysian United Democratic Alliance (MUDA)
+P147,Johor,Parit Sulong,NORAINI BINTI AHMAD,UMNO
+P148,Johor,Ayer Hitam,WEE KA SIONG,MCA
+P149,Johor,Sri Gading,AMINOLHUDA BIN HASSAN,AMANAH
+P150,Johor,Batu Pahat,ONN ABU BAKAR,Parti Keadilan Rakyat
+P151,Johor,Simpang Renggam,HASNI BIN MOHAMMAD,UMNO
+P152,Johor,Kluang,WONG SHU QI,DAP
+P153,Johor,Sembrong,HISHAMMUDDIN BIN DATUK HUSSEIN,UMNO
+P154,Johor,Mersing,MUHAMMAD ISLAHUDDIN ABAS,BERSATU
+P155,Johor,Tenggara,MANNDZRI NASIB,UMNO
+P156,Johor,Kota Tinggi,MOHAMED KHALED NORDIN,
+P157,Johor,Pengerang,AZALINA BINTI OTHMAN,UMNO
+P158,Johor,Tebrau,JIMMY PUAH WEE TSE,Parti Keadilan Rakyat
+P159,Johor,Pasir Gudang,HASSAN BIN ABDUL KARIM,PKR
+P160,Johor,Johor Bahru,AKMAL NASRULLAH BIN MOHD NASIR,PKR
+P161,Johor,Pulai,SALAHUDDIN BIN AYUB,AMANAH
+P162,Johor,Iskandar Puteri,LIEW CHIN TONG,Democratic Action Party
+P163,Johor,Kulai,TEO NIE CHING,DAP
+P164,Johor,Pontian,AHMAD BIN MASLAN,UMNO
+P165,Johor,Tanjung Piai,WEE JECK SENG,MCA
+P166,W.P. Labuan,Labuan,SUHAILI ABDUL RAHMAN,UMNO
+P167,Sabah,Kudat,VERDON BIN BAHANDA,Independent
+P168,Sabah,Kota Marudu,WETROM BIN BAHANDA,Parti Kesejahteraan Demokratik Masyarakat
+P169,Sabah,Kota Belud,ISNARAISSAH MUNIRAH BT MAJILIS @ FAKHARUDY,WARISAN
+P170,Sabah,Tuaran,MADIUS BIN TANGAU,UPKO
+P171,Sabah,Sepanggar,MUSTAPHA SAKMUD,PKR
+P172,Sabah,Kota Kinabalu,CHAN FOONG HIN,DAP
+P173,Sabah,Putatan,SHAHELMEY BIN YAHYA,UMNO
+P174,Sabah,Penampang,EWON BENEDICK,UPKO
+P175,Sabah,Papar,ARMIZAN MOHD ALI,
+P176,Sabah,Kimanis,MOHAMAD BIN ALAMIN,UMNO
+P177,Sabah,Beaufort,SITI AMINAH ACHING,UMNO
+P178,Sabah,Sipitang,MATBALI MUSAH,BERSATU
+P179,Sabah,Ranau,JONATHAN BIN YASIN,
+P180,Sabah,Keningau,GAPARI BIN KATINGAN @ GEOFFREY KITINGAN,STAR
+P181,Sabah,Tenom,RIDUAN RUBIN,Kesejahteraan Demokratik Masyarakat
+P182,Sabah,Pensiangan,ARTHUR JOSEPH KURUP,PBRS
+P183,Sabah,Beluran,RONALD KIANDEE,PPBM
+P184,Sabah,Libaran,SUHAIMI BIN NASIR,Barisan Nasional
+P185,Sabah,Batu Sapi,KHAIRUL FIRDAUS AKBAR KHAN,BERSATU
+P186,Sabah,Sandakan,VIVIAN WONG SHIR YEE,DAP
+P187,Sabah,Kinabatangan,MOKTAR BIN RADIN,UMNO
+P188,Sabah,Lahad Datu,MOHAMMAD YUSOF BIN APDAL,Parti Warisan Sabah
+P189,Sabah,Semporna,MOHD. SHAFIE BIN APDAL,WARISAN
+P190,Sabah,Tawau,LO SU FUI,Parti Bersatu Sabah
+P191,Sabah,Kalabakan,ANDI MUHAMMAD SURYADY BIN BANDY,UMNO
+P192,Sarawak,Mas Gading,MORDI ANAK BIMOL,DAP
+P193,Sarawak,Santubong,NANCY BINTI SHUKRI,PBB
+P194,Sarawak,Petra Jaya,FADILLAH BIN YUSOF,Parti Pesaka Bumiputera Bersatu (PBB)
+P195,Sarawak,Bandar Kuching,KELVIN YII LEE WUEN,DAP
+P196,Sarawak,Stampin,CHONG CHIENG JEN,DAP
+P197,Sarawak,Kota Samarahan,RUBIAH BINTI WANG,Parti Pesaka Bumiputera Bersatu (PBB)
+P198,Sarawak,Puncak Borneo,WILLIE ANAK MONGIN,Parti Pesaka Bumiputera Bersatu (PBB)
+P199,Sarawak,Serian,RICHARD RIOT ANAK JAEM,SUPP
+P200,Sarawak,Batang Sadong,RODIYAH SAPIEE,Parti Pesaka Bumiputera Bersatu
+P201,Sarawak,Batang Lupar,MOHAMMAD SHAFIZAN KEPLI,Parti Pesaka Bumiputera Bersatu
+P202,Sarawak,Sri Aman,DORIS SOPHIA BRODI,Parti Pesaka Bumiputera Bersatu
+P203,Sarawak,Lubok Antu,ROY ANGAU ANAK GINGKOI,Parti Rakyat Sarawak
+P204,Sarawak,Betong,RICHARD RAPU,Parti Pesaka Bumiputera Bersatu
+P205,Sarawak,Saratok,ALI ANAK BIJU,PBB
+P206,Sarawak,Tanjong Manis,YUSUF BIN ABD WAHAB,PBB
+P207,Sarawak,Igan,AHMAD JOHNIE BIN ZAWAWI,PBB
+P208,Sarawak,Sarikei,HUANG TIONG SII,Sarawak United Peoples' Party
+P209,Sarawak,Julau,LARRY SOON@LARRY SNG WEI SHIEN,Parti Bansa Dayak Sarawak
+P210,Sarawak,Kanowit,AGO ANAK DAGANG,Parti Rakyat Sarawak
+P211,Sarawak,Lanang,ALICE LAU KIONG YIENG,DAP
+P212,Sarawak,Sibu,OSCAR LING CHAI YEW,DAP
+P213,Sarawak,Mukah,HANIFAH HAJAR TAIB,PBB
+P214,Sarawak,Selangau,EDWIN ANAK BANTA,Parti Pesaka Bumiputera Bersatu (PBB)
+P215,Sarawak,Kapit,ALEXANDER NANTA LINGGI,PBB
+P216,Sarawak,Hulu Rajang,WILSON UGAK ANAK KUMBONG,Parti Rakyat Sarawak (PRS)
+P217,Sarawak,Bintulu,TIONG KING SING,Progressive Democratic Party (PDP)
+P218,Sarawak,Sibuti,LUKANISMAN BIN AWANG SAUNI,Parti Pesaka Bumiputera Bersatu (PPB)
+P219,Sarawak,Miri,CHIEW CHOON MAN,Parti Keadilan Rakyat (PKR)
+P220,Sarawak,Baram,ANYI NGAU,PDP
+P221,Sarawak,Limbang,HASBI BIN HABIBOLLAH,Parti Pesaka Bumiputera Bersatu (PBB)
+P222,Sarawak,Lawas,HENRY SUM AGONG,Parti Pesaka Bumiputera Bersatu (PBB)
