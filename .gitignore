@@ -1,3 +1,10 @@
+*.csv
+
+# my draft directory
+src_hansard/
+work_draft/
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
