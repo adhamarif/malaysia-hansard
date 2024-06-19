@@ -1,5 +1,7 @@
 matplotlib
 plotly
 streamlit
-pandas
-numpy
+pandas==2.2.1
+numpy==1.26.4
+pypdf2
+pdfminer
