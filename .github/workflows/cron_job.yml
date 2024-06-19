@@ -3,7 +3,7 @@ name:
   
 on:
   schedule:
-    - cron: "0 1 * * *"
+    - cron: "5 1 * * *"
 
 jobs:
   Check-Time:
