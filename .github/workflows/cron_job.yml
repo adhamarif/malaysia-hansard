@@ -4,12 +4,16 @@ name:
 on:
   schedule:
     - cron: "15 23 * * *"
+  workflow_dispatch:  # manual triggers
 
 jobs:
-  Check-Time:
+  Get-attendance-data:
     runs-on: windows-latest # run on windows
     steps:
-    - uses: actions/checkout@v3 # command for github, first step
+    - name: Checkout repo content with PAT
+      uses: actions/checkout@v3 # command for github, first step
+      with:
+        token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}  # Use the PAT instead of the default GITHUB_TOKEN to allow push by GH actions.
     - name: Set up Python # 2nd step
       uses: actions/setup-python@v3
       with:
@@ -18,3 +22,14 @@ jobs:
       run: pip install -r requirements.txt
     - name: Run attendance scraping
       run: python automation/attendance.py # run a attendance scraping file
+    - name: Check if there are any changes in attendance .csv file
+      run: |
+        git config user.name 'github-actions'
+        git config user.email 'github-actions@github.com'
+        git add hansard_malaysia/sessions/session_15/attendance_session_15.csv
+        git diff --staged --quiet || echo "changes=true" >> $GITHUB_ENV
+    - name: Commit and push if changes
+      if: env.changes == 'true' # if there are changes made, push new data to repo
+      run: |
+        git commit -m "updated attendance file"
+        git push
