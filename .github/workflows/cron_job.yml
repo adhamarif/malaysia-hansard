@@ -23,6 +23,7 @@ jobs:
     - name: Run attendance scraping
       run: python automation/attendance.py # run a attendance scraping file
     - name: Check if there are any changes in attendance .csv file
+      id: git-check
       run: |
         git config user.name 'github-actions'
         git config user.email 'github-actions@github.com'
