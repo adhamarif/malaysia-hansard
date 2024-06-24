@@ -11,11 +11,11 @@ jobs:
     runs-on: windows-latest # run on windows
     steps:
     - name: Checkout repo content with PAT
-      uses: actions/checkout@v3 # command for github, first step
+      uses: actions/checkout@v4 # command for github, first step
       with:
         token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}  # Use the PAT instead of the default GITHUB_TOKEN to allow push by GH actions.
     - name: Set up Python # 2nd step
-      uses: actions/setup-python@v3
+      uses: actions/setup-python@v5
       with:
         python-version: 3.9
     - name: Install dependencies
