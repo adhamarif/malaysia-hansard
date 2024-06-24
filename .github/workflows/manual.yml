@@ -1,0 +1,21 @@
+name:
+  Manual action
+  
+on:
+  push:
+      branches:
+        - 'main'
+
+jobs:
+  Check-Time:
+    runs-on: windows-latest # run on windows
+    steps:
+    - uses: actions/checkout@v3 # command for github, first step
+    - name: Set up Python # 2nd step
+      uses: actions/setup-python@v3
+      with:
+        python-version: 3.9
+    - name: Install dependencies
+      run: pip install -r requirements.txt
+    - name: Run attendance scraping
+      run: python automation/attendance.py # run a attendance scraping file
