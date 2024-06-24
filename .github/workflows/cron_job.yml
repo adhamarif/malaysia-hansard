@@ -25,8 +25,8 @@ jobs:
     - name: Check if there are any changes in attendance .csv file
       id: git-check
       run: |
-        git config user.name 'github-actions'
-        git config user.email 'github-actions@github.com'
+        git config user.name '${{ secrets.GIT_USERNAME }}'
+        git config user.email '${{ secrets.GIT_USERNAME }}'
         git add hansard_malaysia/sessions/session_15/attendance_session_15.csv
         git diff --staged --quiet || echo "changes=true" >> $GITHUB_ENV
     - name: Commit and push if changes
