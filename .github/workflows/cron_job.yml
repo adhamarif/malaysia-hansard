@@ -8,7 +8,7 @@ on:
 
 jobs:
   Get-attendance-data:
-    runs-on: ubuntu-latest # run on windows
+    runs-on: windows-latest # run on windows
     steps:
     - name: Checkout repo content with PAT
       uses: actions/checkout@v3 # command for github, first step
