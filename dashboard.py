@@ -13,6 +13,7 @@ attendance = pd.read_csv(file_path + "/attendance_session_15.csv")
 summary = pd.read_csv(file_path + "/summary_session_15.csv")
 mp_riuh = pd.read_csv(file_path + "/riuh_stats_session_15.csv")
 mp_kelakar = pd.read_csv(file_path + "/gelak_stats_session_15.csv")
+extra_info = pd.read_csv('hansard_malaysia/work_draft/filtered.csv')
 
 df = mp.drop(["seat_code", "state", "seat"], axis=1).merge(attendance, on="mp", how="inner")
 
@@ -66,7 +67,8 @@ fig_3 = px.strip(df.drop(to_drop, axis=1), x="total", y="coalition",
 
 st.plotly_chart(fig_3)
 
-
+# party = st.selectbox("Choose Party", ['UMNO', 'MIC', 'MCA', 'PBRS', 'PKR', 'DAP',
+#                                'AMANAH', 'MUDA', 'UPKO', 'PAS', 'BERSATU'])
 
 tab1, tab2 = st.tabs(["Dewan Gelak", "Dewan riuh"])
 
@@ -76,29 +78,21 @@ with tab1:
 with tab2:
     st.plotly_chart(fig_2, use_container_width=True)
 
+# pie plot
 
+gender_count = extra_info['gender'].value_counts()
 
+# Creating a pie chart
+fig = px.pie(names=gender_count.index, values=gender_count.values, title='Gender')
 
+st.plotly_chart(fig)
 
+extra_info = extra_info.rename(columns={'constituency_seat_no': 'seat_code'})
+extra_info = extra_info.merge(mp, on='seat_code', how='outer')
+group_data = extra_info.groupby('current_party')['gender'].value_counts().reset_index(name='count')
 
+# Creating a bar chart
+fig = px.bar(group_data, x='current_party', y='count', color='gender', barmode='group',
+             title='Gender Distribution by Party')
 
-
-
-# df = mp.drop(["seat_code", "state", "seat"], axis=1).merge(attendance, on="mp", how="inner")
-# n_session = len(df.drop("total", axis=1).iloc[:, 4:].columns)
-# df["attendance_%"]=round((df["total"] / n_session * 100),2)
-# party_counts = df["current_party"].value_counts().sort_values()
-
-
-# fig, ax = plt.subplots(figsize=(5,5))
-
-# ax.barh(party_counts.index, party_counts)
-# # set the axis labels and title
-# ax.set_xlabel('Number of Members')
-# #ax.set_ylabel('Party')
-# ax.set_title('Party Member in Parliament')
-
-# st.pyplot(fig)
-
-# attendance_party = df[["current_party","attendance_%"]].groupby("current_party").mean().sort_values(by="attendance_%")
-
+st.plotly_chart(fig)
