@@ -29,10 +29,8 @@ jobs:
         git config user.name "${{ secrets.GIT_USERNAME }}"
         git config user.email "${{ secrets.GIT_EMAIL }}"
         git add hansard_malaysia/sessions/session_15/attendance_session_15.csv
-        if (git diff --staged --quiet) {
-          echo "No changes"
-        } else {
-          echo "changes=true" >> $GITHUB_ENV
+        if (-not (git diff --staged --quiet)) {
+          'changes=true' >> $env:GITHUB_ENV
         }
     - name: Commit and push if changes
       if: env.changes == 'true' # if there are changes made, push new data to repo
