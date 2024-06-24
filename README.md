@@ -9,3 +9,5 @@ Full credit to [Thevesh](https://github.com/Thevesh) for the source code to get 
 **Attendance of MPs for Malaysian Parliament Sittings (House of Commons / Dewan Rakyat)**
 100% credit to the Malaysian Parliament (go to parlimen.gov.my) for transparency on MP attendance - I simply scraped the PDFs and put the data together. 
 
+## Get the data:
+[Malaysia 15th Parliament attendance](hansard_malaysia/sessions/session_15/attendance_session_15.csv)
