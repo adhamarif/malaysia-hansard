@@ -15,8 +15,8 @@ mp = pd.read_csv(mp_session_15_file)
 attendance_df = pd.read_csv(attendance_file)
 
 # Malaysian Parliament date. Check the seating period here --> https://www.parlimen.gov.my/takwim-dewan-rakyat.html?uweb=dr&
-start_date = date(2024, 2, 26)
-end_date = date(2024, 3, 27)
+start_date = date(2024, 6, 24)
+end_date = date(2024, 7, 18)
 
 # Generate list of dates from start_date to end_date
 date_list = [(start_date + timedelta(days=x)) for x in range((end_date - start_date).days + 1)]
