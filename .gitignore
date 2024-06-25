@@ -1,4 +1,5 @@
 *.csv
+*.pdf
 
 # my draft directory
 src_hansard/
