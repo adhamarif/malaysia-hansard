@@ -8,7 +8,7 @@ on:
 
 jobs:
   Get-attendance-data:
-    runs-on: windows-latest # run on windows
+    runs-on: ubuntu-latest # run on windows
     steps:
     - name: Checkout repo content with PAT
       uses: actions/checkout@v4 # command for github, first step
@@ -28,10 +28,9 @@ jobs:
       run: |
         git config user.name "${{ secrets.GIT_USERNAME }}"
         git config user.email "${{ secrets.GIT_EMAIL }}"
-        git add hansard_malaysia/sessions/session_15/attendance_session_15.csv
-        if (-not (git diff --staged --quiet)) {
-          'changes=true' >> $env:GITHUB_ENV
-        }
+        git status
+        git add .
+        git diff --staged --quiet || echo "changes=true" >> $GITHUB_ENV
     - name: Commit and push if changes
       if: env.changes == 'true' # if there are changes made, push new data to repo
       shell: pwsh

@@ -1,15 +1,14 @@
 import urllib.request
 import pandas as pd
-from datetime import date, datetime, timedelta
+from datetime import date, timedelta
 import PyPDF2
 from pdfminer.high_level import extract_text
 import os
-import glob
 import requests
 
 # PATH to the existing files
-mp_session_15_file = r'hansard_malaysia\sessions\session_15\mp_session_15.csv'
-attendance_file = r'hansard_malaysia\sessions\session_15\attendance_session_15.csv'
+mp_session_15_file = 'hansard_malaysia/sessions/session_15/mp_session_15.csv'
+attendance_file = 'hansard_malaysia/sessions/session_15/attendance_session_15.csv'
 
 # open current records with pandas
 mp = pd.read_csv(mp_session_15_file)
@@ -32,22 +31,23 @@ for tdate in date_list:
         print(f'No parliament seating on: {tdate}')
         continue
 
-    ### start scrap the pdf on the available pdfs
+    ### start scraping the pdf on the available pdfs
     # request url for hansard, if available
     print("Downloading newest hansard...")
     url_hansard = 'https://www.parlimen.gov.my/files/hindex/pdf/DR-' + tdate.strftime('%d%m%Y') +  '.pdf'
-    urllib.request.urlretrieve(url_hansard, f'automation/hansard_' + 'DR-' + tdate.strftime('%d%m%Y') + '.pdf')
+    pdf_path = f'automation/hansard_DR-' + tdate.strftime('%d%m%Y') + '.pdf'
+    urllib.request.urlretrieve(url_hansard, pdf_path)
 
     # Create column for keyword search in hansard
-    mp = mp.iloc[:, :].astype("string")
+    mp = mp.astype(str)
     mp['seat_search'] = ['(' + ''.join(area.split()).lower() + ')' for area in mp.seat.tolist()]
 
     # Initiate dataframe with seat code for every mp in df
     df = pd.DataFrame(columns=['date'] + mp.seat_code.tolist())
 
-    def find_MP(seat,string): return 1 if seat in string else 0
+    def find_MP(seat, string): return 1 if seat in string else 0
 
-    pdf_active = PyPDF2.PdfReader(open(f'automation/hansard_DR-' + tdate.strftime('%d%m%Y') + '.pdf' , 'rb', ),strict=False)
+    pdf_active = PyPDF2.PdfReader(open(pdf_path, 'rb'), strict=False)
     n_pages = len(pdf_active.pages)
     extract_start = 0
     start_set = 0
@@ -57,24 +57,24 @@ for tdate in date_list:
         page_active = ''.join(pdf_active.pages[page].extract_text().split()).lower()
         if start_set == 0 and ('senaraikehadiran' in page_active or 'ahliyanghadir' in page_active):
             extract_start = page
-            start_set = 1 # ensure first instance is taken and frozen
+            start_set = 1  # ensure first instance is taken and frozen
         if 'yangtidakhadir' in page_active: extract_end = page
         elif page > 9:
             extract_end = page
-        if extract_start > 0 and extract_end > 0: break # break the moment we find the end of the section
+        if extract_start > 0 and extract_end > 0: break  # break the moment we find the end of the section
 
     # extracting the text
-    res = extract_text(f'automation/hansard_DR-' + tdate.strftime('%d%m%Y') + '.pdf', page_numbers=[x for x in range(extract_start,extract_end+1)])
+    res = extract_text(pdf_path, page_numbers=[x for x in range(extract_start, extract_end + 1)])
     res = ''.join(res.split()).lower()
-    res = res.replace('(johorbaru)','(johorbahru)')
+    res = res.replace('(johorbaru)', '(johorbahru)')
     res = res.replace('bentong)', '(bentong)')
-    hadir = res.split('yangtidakhadir')[0] #only get list name that attend
+    hadir = res.split('yangtidakhadir')[0]  # only get list name that attend
 
     # find MP attendance
-    attendance = [find_MP(area,hadir) for area in mp.seat_search.tolist()]
+    attendance = [find_MP(area, hadir) for area in mp.seat_search.tolist()]
 
     # update the attendance record
-    formatted_date = tdate.strftime('%d/%#m/%Y')
+    formatted_date = tdate.strftime('%d/%-m/%Y')
 
     if formatted_date not in attendance_df.columns:
         attendance_df.drop(columns='total', inplace=True)
